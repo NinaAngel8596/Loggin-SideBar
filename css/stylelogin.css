@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(../img/fondologgin.jpeg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative; /* Establece el posicionamiento relativo */
+}
+
+.user-img {
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid #eee;
+}
+
+.user {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.user input,
+.password input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 40px; 
+}
+
+.user .bx-body {
+    position: absolute;
+    left: 10px; /* Ajusta la posición del icono a la izquierda del input */
+    top: 50%; /* Centra verticalmente el icono */
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #555; /* Color del icono */
+}
+
+
+.password .bx-lock-alt {
+    position: absolute;
+    left: 29px; /* Utiliza la posición del icono "bx-body" más su ancho para alinear el icono "bx-lock-alt" */
+    top: 248px; /* Mueve el icono hacia abajo en 20px */
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #555; /* Color del icono */
+}
+
+
+
+.form-input::placeholder {
+    color: #ccc; /* Color del texto de marcador de posición */
+}
+
+.form-submit {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-submit:hover {
+    background-color: #2a2b2c;
+}
+
+.btnRegistro{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.btnRegistro:hover{
+    background-color: #2a2b2c;
+}
